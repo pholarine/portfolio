@@ -1,0 +1,161 @@
+body {margin: 0px; padding: 0px}
+
+
+
+/*------------landing page----------------*/
+
+.container-section-1{
+    overflow-x: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.section-1{
+    margin: auto;
+}
+
+.section-1 h1{
+    font-size: 4vw ;
+    text-align: center;
+    color: rgb(231, 248, 247);
+    font-family: cursive
+}
+
+.section-1 p{
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(231, 248, 247);
+}
+
+.section-1 p a{
+    color: rgb(231, 248, 247);
+    text-decoration: none;
+    display: inline-block;
+    border:  solid rgb(231, 248, 247) 2px ;
+    border-radius: 10%;
+    padding: 8px 18px;
+    margin-top:20px
+}
+
+
+
+
+@media only screen and (max-width:480px){
+       .section-1 p{
+        font-size: 1.3em;
+        text-align: center;
+       }
+
+        .section-1 h1{
+            font-size: 10vw;            
+        }
+          
+}
+
+.opacity{
+    width:100vw;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+.background{
+    width:100vw;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black url(./images/gif.gif);
+    z-index: -2;
+}
+
+
+/*--------------- page-2---------------------*/
+
+.page2{
+    background: rgb(140, 140, 146);
+    min-height: 100vh;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    background: black;
+    padding: 0px;
+    margin-top:0px;
+    }  
+
+nav ul li a{
+    display:block;
+    color: white;
+    text-decoration:none;
+    padding: 20px;
+    text-align: center;
+    font: 1em sans-serif;    
+}
+
+nav ul li a:hover{
+    display:block;
+    color: white;
+    text-decoration:none;
+    padding: 20px;
+    text-align: center;
+    font: 1em sans-serif;
+    background: blue
+}
+
+.section-2 h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+@media only screen and (max-width:480px){
+    .page2 nav {
+        display:none;
+    }             
+
+    .small-screen-btn{
+        position: absolute;
+        top: 104vh;
+        right: 5px;
+        background: red;
+        width: 40px;
+        height: 40px;        
+    }
+    .small-screen-btn:hover .page2 nav{
+        display: block;
+    }
+}
+
+.section-4 p {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* --------------------footer----------------------*/
+footer{
+    background: black;
+    display: flex;
+   
+}
+
+
+footer a {
+    display: flex;
+    padding: 20px;
+
+}
+
+
+
